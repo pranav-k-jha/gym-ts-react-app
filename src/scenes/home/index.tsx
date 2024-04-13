@@ -81,13 +81,13 @@ const Home = ({ setSelectedPage }: Props) => {
           <img src={HomePageGraphic} alt="home-page-graphic" />
         </div>
       </motion.div>
-      <div className="flex items-center justify-center w-full mt-5 absolute top-14 md:absolute md:-bottom-80">
+      {/* <div className="flex items-center justify-center w-full mt-5 absolute top-14 md:absolute md:-bottom-80">
         <div className="mt-4 w-5/6 flex-center bg-gradient-to-r from-blue-500 to-purple-800 rounded-lg p-4 animate-pulse">
           <p className="text-center text-white">
             👨‍💻 Currently under construction... 🚧 <br />
           </p>
         </div>
-      </div>
+      </div> */}
 
       {/* SPONSORS */}
       {isAboveMediumScreens && (
