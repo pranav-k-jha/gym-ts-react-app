@@ -133,7 +133,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             </form>
           </motion.div>
           <motion.div
-            className="relative mt-16 mt-16 basis-2/5 md:mt-0"
+            className="relative mt-16 basis-2/5 md:mt-0"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.5 }}
